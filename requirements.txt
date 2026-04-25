@@ -4,3 +4,5 @@ pandas
 scikit-learn
 keras-facenet
 joblib
+matplotlib
+seaborn
