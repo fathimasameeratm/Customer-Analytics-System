@@ -22,7 +22,7 @@ This project is an end-to-end customer analytics system that captures real-time 
 
 * Python (OpenCV, NumPy, Pandas)
 * Machine Learning (FaceNet, SVM)
-* Jupyter Notebook
+* Visual Studio Code
 * Power BI
 
 ---
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 ### 2️⃣ Run the system
 
 ```bash
-python customer_analytics_system.py
+python main.py
 ```
 
 ---
