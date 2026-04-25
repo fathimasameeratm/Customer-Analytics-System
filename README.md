@@ -5,7 +5,13 @@
 This project is an end-to-end customer analytics system that captures real-time customer data using computer vision, predicts gender using a custom trained machine learning model, and generates insights through data analysis and visualization.
 
 ---
+## 📸 Dashboard Preview
 
+![Dashboard Preview](dashboard/dashboard.png)
+
+👉 Full interactive dashboard available in `PowerBI Dashboard.pbix`
+
+---
 ## 🚀 Features
 
 * Real-time face detection using OpenCV
@@ -38,13 +44,6 @@ Real-time Video → Face Detection → Face Embedding → Gender Prediction → 
 * Simulated dataset (`simulated_customer_data.csv`)
 * Analytical insights (EDA)
 * Dashboard visualization (Power BI)
-
----
-## 📸 Dashboard Preview
-
-![Dashboard Preview](dashboard/dashboard.png)
-
-👉 Full interactive dashboard available in `PowerBI Dashboard.pbix`
 
 ---
 ## 📊 Key Insights
