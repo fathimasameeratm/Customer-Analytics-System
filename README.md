@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project is an end-to-end customer analytics system that captures real-time customer data using computer vision, predicts gender using a trained machine learning model, and generates insights through data analysis and visualization.
+This project is an end-to-end customer analytics system that captures real-time customer data using computer vision, predicts gender using a custom trained machine learning model, and generates insights through data analysis and visualization.
 
 ---
 
@@ -32,7 +32,21 @@ This project is an end-to-end customer analytics system that captures real-time 
 Real-time Video → Face Detection → Face Embedding → Gender Prediction → Tracking → Data Storage → EDA → Dashboard
 
 ---
+## 📌 Output
 
+* Real-time customer dataset (`realtime_customers_data.csv`)
+* Simulated dataset (`simulated_customer_data.csv`)
+* Analytical insights (EDA)
+* Dashboard visualization (Power BI)
+
+---
+## 📸 Dashboard Preview
+
+![Dashboard Preview](dashboard/dashboard.png)
+
+👉 Full interactive dashboard available in `PowerBI Dashboard.pbix`
+
+---
 ## 📊 Key Insights
 
 * Peak customer activity: **6 PM – 9 PM**
@@ -57,7 +71,7 @@ Customer-Analytics-System/
 │   ├── dashboard.png
 │
 ├── centroidtracker.py           # Tracking logic
-├── customer_analytics_system.py # Real-time system
+├── main.py                      # Real-time system
 ├── generate_data.py             # Data generator
 ├── train_svm.py                 # Model training script
 ├── eda.ipynb                    # Analysis
@@ -70,7 +84,6 @@ Customer-Analytics-System/
 └── README.md
 
 ---
-
 ## ▶️ How to Run
 
 ### 1️⃣ Install dependencies
@@ -84,23 +97,6 @@ pip install -r requirements.txt
 ```bash
 python customer_analytics_system.py
 ```
-
----
-
-## 📌 Output
-
-* Real-time customer dataset (`realtime_customers_data.csv`)
-* Simulated dataset (`simulated_customer_data.csv`)
-* Analytical insights (EDA)
-* Dashboard visualization (Power BI)
-
----
-
-## 📸 Dashboard Preview
-
-![Dashboard Preview](dashboard/dashboard.png)
-
-👉 Full interactive dashboard available in `PowerBI Dashboard.pbix`
 
 ---
 
